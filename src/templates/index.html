@@ -1,0 +1,16 @@
+{% import 'bootstrap/wtf.html' as wtf %}
+
+{% block app_content %}
+    <h1>Tradutor</h1>
+    <div class="row ">
+        <div class="col-md-6">
+            <spam>Digite um número no intervalo [-99999, 99999] para obtê-lo por extenso:</spam>
+            {{ wtf.quick_form(form, button_map={'submmit':'success'}) }}
+        </div>
+        {% if res %}
+            <div class="col-md-6">
+              <spam>Extenso: {{ res }}</spam> 
+            </div>
+        {% endif %}
+    </div>
+{% endblock %}
