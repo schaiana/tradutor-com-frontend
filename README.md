@@ -1,0 +1,1 @@
+# tradutor-com-frontend
