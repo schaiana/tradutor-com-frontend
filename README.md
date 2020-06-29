@@ -1,6 +1,6 @@
 # Tradutor
 
-Esta aplicação transforma algarismos em números por extenso.
+Esta aplicação transforma algarismos no intervalo [-99999, 99999] em números por extenso.
 
 Ela foi desenvolvida utilizando Python e Flask.
 
